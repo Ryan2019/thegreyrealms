@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'ProtestRevolution-Regular.ttf';
+    src: url('/fonts/ProtestRevolution-Regular.ttf') format('truetype');
+}
+
+/* heading content */
+
+.header-home {
+    font-family: 'ProtestRevolution-Regular.ttf', sans-serif;
+    background-image: url('/images/greyForest.jpg');
+    background-size: cover;
+    background-position: center 60%;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
+}
+
+.header-grimbutal {
+    font-family: 'ProtestRevolution-Regular.ttf', sans-serif;
+    background: url('/images/GrimButalheader2.jpg');
+    background-size: 40%;
+    background-position: 50% 0%;
+    color: #fff;;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000000, 1px -1px #000, -1px 1px #000, 1px 1px #000;
+}
+
+/* body content */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+.body-grimbutal {
+    color: #fff;
+    background-image: url('/images/grimbutal_nostyle_image2.0default.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* nav menu content */
+
+nav {
+    background: linear-gradient(to right, #4b4b4b, #000000, #4b4b4b);
+    padding: 5px;
+    border-radius: 40px;
+    width: 25%;
+    margin: 0 auto;
+    border: 1px solid #990000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3498bd;
+    font-size: 22px;
+    transition: color 0.1s;
+}
+
+nav a:hover {
+    color: #a0000b;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display:  none;
+    position: absolute;
+    top: 100%;
+    background: linear-gradient(to right, #4b4b4b, #000000, #4b4b4b);
+    border: 1px solid #990000;
+    min-width: 5%;
+    box-shadow: 0 32px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    padding: 5px 5px;
+    display: block;
+}
+
+/* main section content */
+
+main {
+    padding: 20px;
+}
+
+.main-content {
+    padding-bottom: 5%;
+}
+
+.center-section {
+    text-align: center;
+}
+
+.continent-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.continent-nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.emblem-border {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #990000;
+}
+
+.sectionabout {
+    width: 100%;
+    background-color: #bbb9b9;
+    padding: 0px;
+}
+
+.sectionaboutlayout {
+    max-width: 90%;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.sectionabout img {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.fillspacetext {
+    flex-grow: 1;
+}
+
+.fillspacetext h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.prologue-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slideContent {
+    text-align: center;
+    padding: 20px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+/* table content */
+
+.table-regions {
+    width: 60%;
+    position: relative;
+    left: 20%;
+    background-color: transparent;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.table-regions td {
+    background-color: transparent;
+}
+
+.sectiontitle {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'ProtestRevolution-Regular.ttf', sans-serif;
+}
+
+/* footer content */
+
+footer {
+    background: linear-gradient(to right, #ffffff00, #ffffff47, #9090909b, #252525c9, #000000, #252525c9, #9090909b, #ffffff47, #ffffff00);
+    padding: 5px;
+    margin: 0 auto;
+    font-family: 'ProtestRevolution-Regular.ttf', sans-serif;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3498bd;
+    font-size: 18px;
+    transition: color 0.1s;
+}
+
+.footertext {
+    font-size: 8px;
+    text-align: center;
+    color: #ffffff;
+}
